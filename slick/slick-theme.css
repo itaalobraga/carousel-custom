@@ -48,14 +48,14 @@
 .slick-next:focus
 {
     outline: none;
-    opacity: .25;
+    opacity: 1;
 }
 .slick-prev:hover
 .slick-prev:focus
 .slick-next:hover,
 .slick-next:focus
 {
-    opacity: .25;
+    opacity: 1;
 }
 .slick-prev.slick-disabled
 {
