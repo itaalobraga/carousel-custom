@@ -22,7 +22,6 @@ body {
     width: 52%;
     background-color: #ffffff;
     border-radius: 8px;
-    /* padding: 3% 0 3.1% 0; */
 }
 
 .carousel-wrapper {
@@ -63,20 +62,22 @@ body {
 .carousel-text-info {
     display: flex;
     justify-content: flex-start;
+    align-items: center;
     gap: 0 1.5rem;
 }
 
 .companie-logo {
-    flex: 0.3;
     background-image: url('./jeep.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+    width: 101.15px;
+    height: 40.49px;
 }
 
 .divisor {
     border: 1px solid #a3a3a3;
-    min-height: 2.5rem;
+    height: 2.5rem;
 }
 
 .carousel-text-author {
@@ -106,7 +107,7 @@ body {
 
 @media screen and (max-width: 1280px) {
     .author-img {
-        flex: 0.78;
+        /* flex: 1; */
     }
 
     .carousel-text {
